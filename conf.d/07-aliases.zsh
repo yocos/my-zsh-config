@@ -14,15 +14,15 @@ alias ~='cd ~'
 
 # --- File listing ---
 # Modern alternative using eza (uncomment if eza is installed):
-# alias ls='eza --icons --group-directories-first'
-# alias ll='eza -la --icons --git --group-directories-first'
-# alias lt='eza --tree --level=2 --icons'
-# alias la='eza -a --icons'
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -la --icons --git --group-directories-first'
+alias lt='eza --tree --level=2 --icons'
+alias la='eza -a --icons'
 alias l='ls -lFh'      # long list with types and human-readable sizes
-alias la='ls -lAFh'    # long list including hidden files
+# alias la='ls -lAFh'    # long list including hidden files
 alias lr='ls -tRFh'    # recursive, sorted by date
-alias lt='ls -ltFh'    # long list sorted by date
-alias ll='ls -l'       # plain long list
+# alias lt='ls -ltFh'    # long list sorted by date
+# alias ll='ls -l'       # plain long list
 alias ldot='ls -ld .*' # show only dotfiles
 alias lS='ls -1FSsh'   # sort by size
 alias lart='ls -1Fcart' # sort by access time, reversed
