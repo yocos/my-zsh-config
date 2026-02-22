@@ -1,0 +1,10 @@
+setopt AUTO_CD
+setopt CORRECT
+setopt NO_CASE_GLOB
+setopt GLOB_DOTS
+setopt EXTENDED_GLOB
+setopt NULL_GLOB
+setopt INTERACTIVE_COMMENTS
+setopt AUTO_PUSHD
+setopt PUSHD_IGNORE_DUPS
+setopt PUSHD_SILENT

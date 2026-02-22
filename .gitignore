@@ -1,0 +1,26 @@
+# ZSH History
+.zsh_history
+.zsh_sessions/
+
+# ZSH Compdump / completion cache
+.zcompdump
+.zcompdump-*
+.zcompcache/
+
+# ZSH compiled files
+*.zwc
+*.zwc.old
+
+# Cache & temp directories
+cache/
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*~
+*.swp
+*.swo
