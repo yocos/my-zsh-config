@@ -1,0 +1,71 @@
+# =============================================================================
+# Terminal / Shell
+# =============================================================================
+
+brew "zsh"          # Modern shell, replaces bash as default on macOS
+brew "fzf"          # Fuzzy finder — interactive search through history, files, etc.
+brew "zoxide"       # Replaces cd — remembers frequent directories, smart navigation
+brew "eza"          # Replaces ls — colors, icons, built-in git status display
+brew "bat"          # Replaces cat — syntax highlighting, line numbers
+brew "ripgrep"      # Replaces grep — search through files, blazing fast
+brew "fd"           # Replaces find — simple syntax, respects .gitignore
+brew "dust"         # Replaces du — visual disk space analysis
+brew "duf"          # Replaces df — readable display of mounted disks
+brew "jq"           # JSON manipulation and querying from the command line
+brew "yq"           # Same as jq but for YAML/TOML
+brew "ncdu"         # Interactive disk space analysis in the terminal
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+
+cask "visual-studio-code"   # Primary Microsoft editor, massive extension ecosystem
+brew "neovim"               # Modal terminal editor, essential for remote editing over SSH
+
+# =============================================================================
+# Languages
+# =============================================================================
+
+brew "pyenv"        # Python version manager — multiple versions side by side
+
+# =============================================================================
+# Containers
+# =============================================================================
+
+brew "docker"           # Container runtime — build, run, push images
+brew "docker-compose"   # Multi-container orchestration for local development
+
+# =============================================================================
+# Cloud AWS / Azure
+# =============================================================================
+
+brew "awscli"                   # Official AWS CLI — interact with all AWS services
+cask "session-manager-plugin"   # AWS SSM plugin — SSH access to EC2 without bastion or key
+
+# =============================================================================
+# Git / CI-CD
+# =============================================================================
+
+brew "git"          # Version control — foundation of everything
+brew "gh"           # GitHub CLI — PRs, issues, workflows from the terminal
+brew "git-delta"    # Replaces git diff — improved colorization and navigation
+brew "lazygit"      # Terminal UI for git — visualize branches, commits, diffs
+brew "pre-commit"   # Git hooks framework — lint, format, security checks before each commit
+brew "act"          # Run GitHub Actions locally without pushing
+
+# =============================================================================
+# Observability / Debug
+# =============================================================================
+
+brew "htop"         # Interactive process monitor — replaces top
+brew "btop"         # Replaces htop — modern UI, CPU/RAM/network/disk in real time
+brew "doge"          # Replaces dig — readable DNS queries with colorization
+brew "mtr"          # Combines ping and traceroute — real-time network diagnostics
+brew "tcpdump"      # Capture and analyze low-level network traffic
+
+# =============================================================================
+# Utilities
+# =============================================================================
+
+brew "direnv"       # Automatically load environment variables per directory (.envrc)
+brew "mise"         # Universal version manager — replaces pyenv, nvm, gvm, etc.
