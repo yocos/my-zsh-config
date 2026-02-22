@@ -42,18 +42,16 @@ Rapide, lisible et facile à maintenir.
 
 ## Installation
 
-**1. Cloner le repo**
+**1. Cloner le repo avec ses sous-modules en une seule commande**
 
 ```zsh
-git clone <url-du-repo> ~/.zsh-new
+git clone --recurse-submodules <url-du-repo> ~/.zsh-new
 ```
 
-**2. Initialiser les sous-modules / plugins**
-
-```zsh
-cd ~/.zsh-new
-git submodule update --init --recursive
-```
+> Si le repo a déjà été cloné sans `--recurse-submodules` :
+> ```zsh
+> git submodule update --init --recursive
+> ```
 
 **3. Synchroniser les plugins Oh-My-Zsh** (optionnel)
 
